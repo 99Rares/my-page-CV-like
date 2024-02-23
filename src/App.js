@@ -13,10 +13,10 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" Component={Home} />
-          <Route path="/about" Component={Services} />
-          <Route path="/contact" Component={ContactPage} />
-          <Route path="/teaching" Component={TeachingPage} />
+          <Route path="/my-page-CV-like/" Component={Home} />
+          <Route path="/my-page-CV-like/about" Component={Services} />
+          <Route path="/my-page-CV-like/contact" Component={ContactPage} />
+          <Route path="/my-page-CV-like/teaching" Component={TeachingPage} />
         </Routes>
       </Router>
     </>

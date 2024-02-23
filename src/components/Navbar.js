@@ -12,7 +12,11 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link
+            to="/my-page-CV-like/"
+            className="navbar-logo"
+            onClick={closeMobileMenu}
+          >
             <i className="fa-solid fa-r fa-beat-fade"></i>
             AREȘ&nbsp;<i class="fa-solid fa-d fa-beat"></i>
             AN
@@ -22,18 +26,26 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/my-page-CV-like/"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/my-page-CV-like/about"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 About Me
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/contact"
+                to="/my-page-CV-like/contact"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -42,7 +54,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/teaching"
+                to="/my-page-CV-like/teaching"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
