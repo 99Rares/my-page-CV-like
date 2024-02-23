@@ -18,7 +18,7 @@ function HeroSection() {
             className="btns"
             buttonStyle="btn--outline"
             buttonSize="btn--large"
-            goTo="about"
+            goTo="/my-page-CV-like/about"
           >
             GET STARTED
           </Button>
@@ -26,7 +26,7 @@ function HeroSection() {
             className="btns"
             buttonStyle="btn--primary"
             buttonSize="btn--large"
-            goTo=""
+            goTo="/my-page-CV-like/"
             onClick={handleClick}
           >
             WATCH TRAILER <i class="far fa-play-circle" />
