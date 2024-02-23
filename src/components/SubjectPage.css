@@ -1,0 +1,75 @@
+/* src/components/SubjectPage.css */
+
+.subject-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow flex items to wrap to the next line */
+    justify-content: center;
+    /* Center the items horizontally */
+}
+
+.subject-container h1{
+    text-align: center;
+    color: #007bff;
+    margin: 0px 10px 10px 10px;
+}
+
+.subject-title {
+  color: #333;
+  text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 0 10px 20px;
+    width: calc(100% - 20px);
+    max-width: 600px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+        -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+        filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+        border-radius: 10px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
+
+.card h2 {
+    color: #007bff;
+}
+
+.card p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card li {
+  margin-bottom: 5px;
+}
+
+.text {
+text-decoration: none;
+color: black;
+}
+
+/* Add more styling as needed */

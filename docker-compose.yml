@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: react-app
+    image: docker-react-i
+    build: 
+      context: .
+      dockerfile: Dockerfile  # Explicitly specify the Dockerfile if it's not named 'Dockerfile'
+    ports:
+      - "8181:3000"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production   # Set NODE_ENV to 'production' by default
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge
